@@ -1,9 +1,9 @@
 ## Human situational awareness fusion
 
-![intro](visuals/intro.png)
+![intro](visuals/overview.png)
 
 
-We implement Bayesian Inverse Planning Accelerated by Language Model to fuse human situational awareness from EEG, eye-tracking, and speech
+We implement Bayesian Inverse Planning Accelerated by Language Model to fuse human situational awareness from EEG, eye-tracking, and speech.
 
 ```bash
 python inverse_symbolic_planner_erp.py --data_path erp.json --model_name_or_path meta-llama/Llama-2-7b-hf --load_lora 1 --lora_name_or_path output/checkpoint-llama --output_path output.txt
